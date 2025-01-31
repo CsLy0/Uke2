@@ -1,0 +1,32 @@
+
+
+.shoppingCart {
+    padding: 10px;
+    border: 2px solid black;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+
+}
+
+
+.hidden {
+    display: none;
+}
+
+body {
+    background-color: rgb(155, 240, 169);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}

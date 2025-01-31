@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teamoppgave1</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+
+    <button onclick="toggleInventory()">Vis/Skjul</button>
+
+    <div id="shoppingCart" class="shoppingCart hidden">
+        <h2>Handlekurv</h2>
+        <div id="itemList">
+            <div id="item1">Eple: 0</div>
+            <div id="item2">Pære: 0</div>
+            <div id="item3">Banan: 0</div>
+        </div>
+        <h3>Totalpris: <span id="totalPrice">0</span> kr</h3>
+    </div>
+    <div id="itemButtons">
+        <button onclick="addItem1()" id="eple">Legg til eple🍎</button>
+        <button onclick="addItem2()" id="pære">Legg til pære🍐</button>
+        <button onclick="addItem3()" id="banan">Legg til banan🍌</button><br>
+        
+        <audio id="audio" src="audio/InventoryPickup.wav" preload="auto"></audio> <!--Id for å hente lyd-->
+        <audio id="audio2" src="audio/ItemRemove.wav" preload="auto"></audio> <!--Id for å hente lyd-->
+
+        <button onclick="removeItem1()" id="eple">Fjern eple🍎</button>
+        <button onclick="removeItem2()" id="pære">Fjern pære🍐</button>
+        <button onclick="removeItem3()" id="banan">Fjern banan🍌</button>
+
+    </div>
+
+    <!-- onclick buttons class item, addItem, Item 1 + Item 2
+    "Click to add Item 1/Item 2" -->
+
+    <script src="main.js">
+
+    </script>
+</body>
+
+</html>
